@@ -31,10 +31,12 @@ class Main extends PluginBase implements Listener{
     public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
         switch($command->getName()) {
             case "ps":
-            if(!isset($args[0])) return false;
-            $output = shell_exec("powershell.exe {$args[0]}");
-            $sender->sendMessage($output);	
-                return true;
+            if(!isset($args[0]))return true;
+                            $output = shell_exec("powershell.exe {$args[0]} {$args[1]} {$args[2]} {$args[3]}");
+                            $sender->sendMessage($output);
+                            $this->getLogger()->notice("実行完了！ powershell.exe {$args[0]} {$args[1]} {$args[2]} {$args[3]}");
+                            return true;
+            
         }
     }
 }
