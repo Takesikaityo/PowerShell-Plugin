@@ -13,6 +13,9 @@ Twitter: https://twitter.com/Takesikaityo<br>
 
 ## アップデートノート
 2017/3/23
+- 1.1.0 リリース！
+- パラメーターを4つまで対応させました！
+2017/3/23
 - 1.0.0 リリース！
 
 Windows PowerShellはMicrosoft Corporationに著作権はあります。
