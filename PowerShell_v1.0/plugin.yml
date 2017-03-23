@@ -1,0 +1,11 @@
+name: PowerShell
+main: uepon\Main
+version: 1.0.0
+api: [3.0.0]
+load: POSTWORLD
+author: uepon
+website: https://plus.google.com/105250560911974727147
+commands:
+ ps:
+  description: "Run powershell commands"
+  usage: "/ps <command>"
