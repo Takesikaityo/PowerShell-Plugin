@@ -1,4 +1,4 @@
-# PowerShellプラグイン for PocketMien-MP
+# PowerShellプラグイン for PocketMine-MP
 PocketMine-MP (pmmp)でWindows PowerShellを実行するためのものです。
 
 使用方法
