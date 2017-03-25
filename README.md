@@ -12,10 +12,13 @@ Twitter: https://twitter.com/Takesikaityo<br>
 * __[うえぽん](https://twitter.com/takesi_kaityo)__
 
 ## アップデートノート
+2017/3/25
+1.2.0
+- OSがwindowsでなければ無効化させる機能追加
+
 2017/3/23
 - 1.1.0 リリース！
-- パラメーターを4つまで対応させました！
-2017/3/23
+パラメーターを4つまで対応させました！
 - 1.0.0 リリース！
 
 Windows PowerShellはMicrosoft Corporationに著作権はあります。
