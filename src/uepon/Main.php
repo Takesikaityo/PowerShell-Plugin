@@ -15,11 +15,18 @@ use pocketmine\command\CommandExecutor;
 
 # Utils
 use pocketmine\utils\config;
+use pocketmine\utils\Utils;
 
 class Main extends PluginBase implements Listener{
 
     public function onEnable(){
         $this->getLogger()->info("Windows PowerShellを起動しました！");
+        $this->getLogger()->info("OSを所得しています...");
+		if(Utils::getOS() != "win"){
+        		$this->getLogger()->warning("OSがWindowsではない為、プラグインを無効化しました。");
+			$this->getServer()->getPluginManager()->disablePlugin($this);
+		}
+        $this->getLogger()->info("OSがWindowsの為、プラグインを有効化しました。");
         if(!file_exists($this->getDataFolder())){
             mkdir($this->getDataFolder(), 0744, true);
         }
